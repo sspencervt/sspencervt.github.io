@@ -1,0 +1,64 @@
+body {
+    background-color:;
+    font-family: 'News Cycle', sans-serif;
+    background-color: rgb(243, 250, 247)
+}
+.info {
+    margin-bottom: -90px;
+    margin-top: -20px;
+}
+.name {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 30px;
+}
+.location {
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: -30px;
+    margin-bottom: -5px;
+    padding-bottom: 10px;
+}
+.contact {
+    text-align: right;
+    top: 20px;
+    right: 20px;
+    
+}
+#phone {
+    
+}
+#email {
+    margin-top: -25px;
+}
+.dropdownmenu {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+a:hover {
+    color: #bc8f54;
+    font-size: 19px;
+}
+.interestsp {
+   width: 800px;
+   padding-left: 20px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+   box-shadow: 5px 5px 5px grey;
+   border-radius: 25px;
+}
+
+img {
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    top: 200px;
+}
