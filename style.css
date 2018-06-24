@@ -87,15 +87,35 @@ a:hover {
    border-radius: 25px;
 }
 
-#github {
-    height: 60px;
-    width: 60px;
+#logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.linkedin:hover {
+    height: 110px;
+    width: 110px;
+    opacity: .5;
+}
+
+.linkedin {
+    display: flex;
+    height: 100px;
+    width: 100px;
     opacity: .2;
 }
 
-#linkedin {
-    height: 60px;
-    width: 60px;
+.github:hover {
+    height: 110px;
+    width: 110px;
+    opacity: .5;
+}
+
+.github {
+    display: flex;
+    height: 100px;
+    width: 100px;
     opacity: .2;
 }
 
