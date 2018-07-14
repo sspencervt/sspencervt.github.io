@@ -12,15 +12,6 @@ html {
     height: 100%;
 }
 
-#background {
-    /* background-image: url(backgroundimage.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100%; */
-}
-
 #fullpage {
     overflow: scroll;
     position: fixed;
@@ -70,28 +61,10 @@ a:hover {
     font-size: 15px;
 }
 
-
-/* GITHUB AND LINKEDIN LOGOS */
-
-#medialinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 30px;
-}
-#github {
-    height: 60px;
-    width: 60px;
-}
-
-#linkedin {
-    height: 60px;
-    width: 60px;
-}
-
 /* NAME AND LOCATION */
 
 #name-location-container {
+    height: 805px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,7 +72,6 @@ a:hover {
     .name {
         position: relative;
         font-size: 50px;
-        margin-top: 150px;
         justify-content: center;
         display: flex;
     }
@@ -108,33 +80,55 @@ a:hover {
         justify-content: center;
         display: flex;
     }
-#contact-info-container {
-    padding-top: 250px;
+
+/* PROJECTS */
+
+#projects {
+    height: 800px;
+    background-color: #BEE2D6;
+    width: 100%;
+    margin: auto;
+}
+#projectsheader {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: black;
+    font-weight: bold;
+}
+#guess {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+/* CAREER SECTION */
+
+#career {
+    color: black;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    margin-top: 0px;
+    background-color: #87BAA9;
+    border-radius: 5px;
 }
-span {
+#careerheadline {
     display: flex;
-    line-height: 1.5em;
+    width: 100%;
     justify-content: center;
-    width: 200px;
-    margin: auto;
+    font-size: 50px;
 }
-#phone {
-    height: 20px;
-    width: 20px;
-    padding-right: 5px;
+#careerp {
+    width: 800px;
+    line-height: 2em;
 }
-#mail {
-    height: 20px;
-    width: 20px;
-    padding-right: 5px;
-}
-#connect {
-    padding-top: 80px;
-    font-size: 24px;
+#student {
+    margin-top: 0;
 }
 
 /* ABOUT ME */
@@ -143,8 +137,8 @@ span {
     width: 100%;
     height: 700px;
     margin: auto;
-    margin-top: 50px;
-    background-color: #C5C5C5;
+    margin-top: 0;
+    background-color: #4B8C8C;
     border-radius: 5px;
     padding: 50px;
 }
@@ -168,23 +162,65 @@ span {
     align-items: center;
 }
 
-/* CAREER SECTION */
-#student {
-    margin-top: 0;
+/* LETS CONNECT */
+
+#contactcontainer {
+    width: 100%;
+    height: 800px;
+    background-color: #386268
 }
-#career {
-    color: black;
-    padding: 50px;
+
+#contact-info-container {
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 0px;
-    background-color: #9F9F9F;
-    border-radius: 5px;
-}
-#careerheadline {
-    display: flex;
     width: 100%;
+}
+span {
+    display: flex;
+    line-height: 1.5em;
     justify-content: center;
+    width: 200px;
+    margin: auto;
+}
+#phone {
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+}
+#mail {
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+}
+#connect {
+    margin-bottom: 100px;
+    width: 400px;
+    padding-top: 20px;
     font-size: 50px;
 }
+
+/* GITHUB AND LINKEDIN LOGOS */
+
+#medialinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+#github {
+    height: 200px;
+    width: 200px;
+}
+#github:hover {
+    opacity: .5;
+}
+#linkedin {
+    height: 200px;
+    width: 200px;
+}
+#linkedin:hover {
+    opacity: .5;
+}
+
