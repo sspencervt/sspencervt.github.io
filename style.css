@@ -19,7 +19,7 @@ html {
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
 }
 
 
@@ -84,10 +84,9 @@ a:hover {
 /* PROJECTS */
 
 #projects {
-    height: 800px;
     background-color: #BEE2D6;
     width: 100%;
-    margin: auto;
+    margin-right: 0px;
 }
 #projectsheader {
     font-size: 50px;
@@ -97,17 +96,17 @@ a:hover {
     color: black;
     font-weight: bold;
 }
-#guess {
+#projectimg {
     height: 300px;
     width: 500px;
     border-radius: 10px;
     display: flex;
-
+    margin: 50px;
 }
 
 /* CAREER SECTION */
 
-#career {
+.career {
     color: black;
     padding: 50px;
     display: flex;
@@ -116,16 +115,24 @@ a:hover {
     margin-top: 0px;
     background-color: #87BAA9;
     border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
 }
 #careerheadline {
+    font-weight: 600;
     display: flex;
     width: 100%;
     justify-content: center;
     font-size: 50px;
 }
 #careerp {
-    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    width: 90%;
     line-height: 2em;
+    justify-content: center;
+    font-weight: 200;
+    font-size: 24px;
 }
 #student {
     margin-top: 0;
@@ -134,7 +141,7 @@ a:hover {
 /* ABOUT ME */
 
 .aboutme {
-    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
     height: 700px;
     margin: auto;
     margin-top: 0;
@@ -167,11 +174,11 @@ a:hover {
 #contactcontainer {
     width: 100%;
     height: 800px;
-    background-color: #386268
-}
+    background-color: #386268 
+} 
 
 #contact-info-container {
-    padding-top: 50px;
+    padding-top: 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -203,11 +210,15 @@ span {
 
 /* GITHUB AND LINKEDIN LOGOS */
 
+#contactcontainer {
+    margin: 0;
+    padding: 0;
+}
 #medialinks {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 #github {
     height: 200px;
