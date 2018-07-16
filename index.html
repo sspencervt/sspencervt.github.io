@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,200" rel="stylesheet">
     <script type="text/javascript" src="portfolio.js"></script>
+    <link rel="shortcut icon" href="titlelogo.png">
+    <title>Sam Spencer</title>
 </head>
     <body>
 <div id="background">      
@@ -34,12 +36,35 @@
 <!-- PROJECTS -->
 
 <a name="projects"></a>
+
 <div id="projects">
-<p id="projectsheader">These are some of the projects I have been working on lately</p>
-<a href="#"><img src="guess.png" id="projectimg"></a>
-<a href="#"><img src="guessyour.png" id="projectimg"></a>
-<a href-"#"><img src="yelpington.png" id="projectimg"></a>
-<a href="#"><img src="geovermonter.png" id="projectimg"></a>
+
+    <p id="projectsheader">These are some of the projects I have been working on lately</p>
+
+<div id="projflex">
+    <div id="projectcolumn">
+        <div id="projectcontainer">
+            <a href="#"><img src="guess.png" id="projectimg"></a>
+            <p id="projectp">The Guessing Game is a one where you, as they player, think of a number between 1-100 and the computer will try to guess what you are thinking.</p>
+        </div>
+        <div id="projectcontainer">
+            <a href="#"><img src="guessyour.png" id="projectimg"></a>
+            <p id="projectp">This Guessing game is the opposite of the one listed above. As the player, you try to guess a number between 1-100 that the computer has generated.</p>
+        </div>
+        <div id="projectcontainer">
+            <a href="#"><img src="yelpington.png" id="projectimg"></a>
+            <p id="projectp">Yelpington is a website that mimmicks the popular app/website Yelp! But this one is just for Burlington, Vermont. My classmates and I chose restaurants we liked in Burlington, we first created a basic markup file with information about the restaurant and pushed it to our shared yelpington repository on Github. After that we translated all of the files into JSon form, so we could make our own websites that fetch the data from each restaurant and displays it depending which restaurant is searched or clicked on from the list.</p>
+        </div>
+        <div id="projectcontainer">
+            <a href="#"><img src="geovermonter.png" id="projectimg"></a>
+            <p id="projectp">In the GeoVermonter app we gathered the langitude and longitude points of the border of Vermont, and displayed that over the top of a map from openstreetmaps using a popular JS library called Leaflet. When you select start you are randomly placed within the borders of Vermont, you then are allowed to move the map North, East, South and West or guess the county you are in, subtracting 1 point starting at 20 for each action. The zooming capabilities are disabled during the game. If you give up it will display your longitude, latitude and county.</p>
+        </div>
+        <div id="projectcontainer">
+            <a href="#"><img src="pomodoro.png" id="projectimg"></a>
+            <p id="projectp">The Pomodoro Technique is a useful way to focus on a problem for a little while... but not too long that encourages regular breaks and can change your perception of time itself. So I created this webpage with a 25:00 minute timer that you can add and subtract minutes and seconds as you prefer. Once you have your preferred time, you start it, forget about it and it will play a ping noise when the time is up.</p>
+        </div>
+    </div>
+</div>  
 </div>
 
 <!-- CAREER -->
@@ -133,7 +158,7 @@
         
     <span id="connect">Let's Connect</span>
     <span><img id="phone"src="phone.png"> 802-324-0598</span>
-    <span><img id="mail" src="mail.png"> sspencerbtv@gmail.com</span>
+    <span><img id="mail" src="mail.png"><a href="mailto:sspencerbtv@gmail.com"> sspencerbtv@gmail.com</a></span>
 
 </div>
 

@@ -87,6 +87,8 @@ a:hover {
     background-color: #BEE2D6;
     width: 100%;
     margin-right: 0px;
+    display: flex;
+    flex-direction: column;
 }
 #projectsheader {
     font-size: 50px;
@@ -97,11 +99,35 @@ a:hover {
     font-weight: bold;
 }
 #projectimg {
+    display: flex;
     height: 300px;
     width: 500px;
     border-radius: 10px;
     display: flex;
     margin: 50px;
+}
+#projectp {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    width: 650px;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 2em;
+}
+#projectcontainer {
+    display: flex;
+    flex-direction: row;
+}
+#projectcolumn {
+    display: flex;
+    flex-direction: column;
+}
+#projflex {
+    display: flex;
+    flex-direction: row;
 }
 
 /* CAREER SECTION */
@@ -142,7 +168,6 @@ a:hover {
 
 .aboutme {
     font-family: 'Titillium Web', sans-serif;
-    height: 700px;
     margin: auto;
     margin-top: 0;
     background-color: #4B8C8C;
@@ -173,7 +198,6 @@ a:hover {
 
 #contactcontainer {
     width: 100%;
-    height: 800px;
     background-color: #386268 
 } 
 
@@ -190,6 +214,8 @@ span {
     justify-content: center;
     width: 200px;
     margin: auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
 }
 #phone {
     height: 20px;
@@ -200,12 +226,14 @@ span {
     height: 20px;
     width: 20px;
     padding-right: 5px;
+    margin-top: 14px;
+
 }
 #connect {
     margin-bottom: 100px;
-    width: 400px;
+    width: 800px;
     padding-top: 20px;
-    font-size: 50px;
+    font-size: 100px;
 }
 
 /* GITHUB AND LINKEDIN LOGOS */
