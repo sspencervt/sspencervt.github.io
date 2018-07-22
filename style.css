@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Overpass', sans-serif;
     margin: 0;
     color: white;
 }
@@ -10,6 +10,7 @@ html {
     background-position: center;
     background-attachment: fixed;
     height: 100%;
+    margin: 0;
 }
 
 #fullpage {
@@ -19,7 +20,10 @@ html {
     top: 0;
     left: 0;
     height: 100%;
-    /* width: 100%; */
+    width: 100%;
+    margin-right: 0;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -45,6 +49,7 @@ html {
 
 a {
     font-size: 15px;
+    font-weight: 100;
 }
 
 a:link {
@@ -58,7 +63,7 @@ a:visited{
 }
 a:hover {
     font-weight: bold;
-    font-size: 15px;
+    font-weight: 300;
 }
 
 /* NAME AND LOCATION */
@@ -66,6 +71,7 @@ a:hover {
 #name-location-container {
     height: 805px;
     display: flex;
+    font-weight: 100;
     flex-direction: column;
     justify-content: center;
 }
@@ -84,7 +90,7 @@ a:hover {
 /* PROJECTS */
 
 #projects {
-    background-color: #BEE2D6;
+    background-color: #F7EDD4;
     width: 100%;
     margin-right: 0px;
     display: flex;
@@ -104,22 +110,25 @@ a:hover {
     width: 500px;
     border-radius: 10px;
     display: flex;
-    margin: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 20px;
 }
 #projectp {
     display: flex;
     color: black;
+    font-weight: 100;
+    font-size: 19px;
     flex-direction: column;
     justify-content: center;
-    width: 650px;
-    border-radius: 20px;
-    padding-left: 20px;
-    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
     line-height: 2em;
 }
 #projectcontainer {
     display: flex;
     flex-direction: row;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 #projectcolumn {
     display: flex;
@@ -133,15 +142,19 @@ a:hover {
 /* CAREER SECTION */
 
 .career {
-    color: black;
-    padding: 50px;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 0px;
-    background-color: #87BAA9;
+    background-color: #3D3E3D;
     border-radius: 5px;
-    font-family: 'Titillium Web', sans-serif;
+    padding-bottom: 50px;
+}
+#jobs {
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 20px;
 }
 #careerheadline {
     font-weight: 600;
@@ -149,16 +162,15 @@ a:hover {
     width: 100%;
     justify-content: center;
     font-size: 50px;
+    margin-top: 80px;
 }
 #careerp {
     display: flex;
     justify-content: center;
-    margin-left: 60px;
-    width: 90%;
     line-height: 2em;
-    justify-content: center;
-    font-weight: 200;
-    font-size: 24px;
+    font-weight: 200;  
+    margin-right: 100px;
+    margin-left: 100px;
 }
 #student {
     margin-top: 0;
@@ -166,13 +178,15 @@ a:hover {
 
 /* ABOUT ME */
 
+#aboutheadline {
+    margin-top: 80px;
+    font-size: 50px;
+}
 .aboutme {
-    font-family: 'Titillium Web', sans-serif;
     margin: auto;
     margin-top: 0;
-    background-color: #4B8C8C;
-    border-radius: 5px;
-    padding: 50px;
+    background-color: #F19117;
+    height: 820px;
 }
 #education {
     color: black;
@@ -182,23 +196,29 @@ a:hover {
     align-items: center;
     font-size: 20px;
 }
-
+li {
+    font-weight: 200;
+}
 #interests {
     color: black;
-    margin-left: 200px;
-    margin-right: 200px;
     font-size: 20px;
     line-height: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#interestsp {
+    margin-bottom: 50px;
+    font-weight: 200;
 }
 
 /* LETS CONNECT */
 
 #contactcontainer {
     width: 100%;
-    background-color: #386268 
+    background-color: #919084 
 } 
 
 #contact-info-container {
@@ -214,8 +234,6 @@ span {
     justify-content: center;
     width: 200px;
     margin: auto;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 200;
 }
 #phone {
     height: 20px;
@@ -263,3 +281,11 @@ span {
     opacity: .5;
 }
 
+@media (max-width: 600px) {
+    #projectcontainer {
+        flex-direction: column;
+    }
+    .name {
+        font-size: 100px;
+    }
+}

@@ -1,0 +1,5 @@
+@media screen and (min-height: 736px) and (min-width: 414px) {
+    #projects {
+        flex-direction: column;
+    }
+}
