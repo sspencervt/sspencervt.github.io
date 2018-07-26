@@ -38,11 +38,11 @@ html {
     position: fixed;
     width: 100%;
 }
-#menubuttons {
+.menubuttons {
     margin: 10px;
     font-size: 18px;
 }
-#menubuttons:hover {
+.menubuttons:hover {
     background-color: rgb(230, 171, 120);
     color: black;
 }
@@ -282,6 +282,9 @@ span {
 }
 
 @media (max-width: 1200px) {
+    body {
+        -webkit-overflow-scrolling: touch;
+    }
     #projectcontainer {
         flex-direction: column;
     }
@@ -299,7 +302,5 @@ span {
     #projectimg {
         justify-content: center;
     }
-    #menu {
-
-    }
+    
 }

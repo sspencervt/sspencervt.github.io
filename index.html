@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="mobile.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Overpass:100,200,300,400" rel="stylesheet">
-    <script type="text/javascript" src="portfolio.js"></script>
     <link rel="shortcut icon" href="titlelogo.png">
+    <link href="https://fonts.googleapis.com/css?family=Overpass:100,200,300,400" rel="stylesheet">
+
+    
     <title>Sam Spencer</title>
 </head>
     <body>
@@ -17,16 +17,16 @@
 <!-- NAVIGATION SECTION -->
 
     <nav id="menu">
-        <a id="menubuttons" href="#home">Home</a>
-        <a id="menubuttons" href="#projects">Projects</a>
-        <a id="menubuttons" href="#career">Career</a>
-        <a id="menubuttons" href="#aboutme">About Me</a>
-        <a id="menubuttons" href="#connect">Contact</a>
+        <a class="menubuttons" href="#home">Home</a>
+        <a class="menubuttons" href="#projects">Projects</a>
+        <a class="menubuttons" href="#career">Career</a>
+        <a class="menubuttons" href="#aboutme">About Me</a>
+        <a class="menubuttons" href="#connect">Contact</a>
     </nav>
 
 <!-- NAME AND CITY -->
 
-<a name="home"></a>
+<a id="home"></a>
     <div id="name-location-container">
         <p class="name">HELLO, I'M SAM SPENCER</p>
         <p class="location">Burlington, VT</p>
@@ -35,7 +35,7 @@
 
 <!-- PROJECTS -->
 
-<a name="projects"></a>
+
 
 <div id="projects">
 
@@ -69,7 +69,7 @@
 
 <!-- CAREER -->
 
-<a name="career"></a>
+<a id="career"></a>
     <div class="career">
         <h1 id="careerheadline">Career</h1>
     <div id="jobs">
@@ -118,7 +118,7 @@
 
 <!-- ABOUT ME -->
 
-<a name="aboutme"></a>
+<a id="aboutme"></a>
 <div class="aboutme">
     <div id="education">
         <h1 id="aboutheadline">About Me</h1>
@@ -152,7 +152,7 @@
     
 <!-- CONTACT INFO -->
 
-<a name="connect"></a>
+<div id="connect"></div>
 <div id="contactcontainer">
 
 <div id="contact-info-container">
@@ -166,13 +166,17 @@
 <!-- MEDIA LINKS -->
 
 <div id="medialinks">
-    <a href="https://www.linkedin.com/in/spencersam/"><img id="linkedin" src="linkedinlogo.svg"></a>
-    <a href="https://github.com/sspencervt/"><img id="github" src="github.svg"></a>
+    <a href="https://www.linkedin.com/in/spencersam/" target="_blank"><img id="linkedin" src="linkedinlogo.svg"></a>
+    <a href="https://github.com/sspencervt/" target="_blank"><img id="github" src="github.svg"></a>
 </div>
 
 </div>
 
 </div> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="portfolio.js"></script>
+
     </body>
 </html>
 
