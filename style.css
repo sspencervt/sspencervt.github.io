@@ -43,7 +43,7 @@ html {
     font-size: 18px;
 }
 #menubuttons:hover {
-    background-color: white;
+    background-color: rgb(230, 171, 120);
     color: black;
 }
 
@@ -284,5 +284,22 @@ span {
 @media (max-width: 1200px) {
     #projectcontainer {
         flex-direction: column;
+    }
+    .name {
+        font-weight: 300;
+        font-size: 70px;
+    }
+    #name-location-container {
+        height: 1800px;
+    }
+    .location {
+        font-size: 50px;
+        font-weight: 300;
+    }
+    #projectimg {
+        justify-content: center;
+    }
+    #menu {
+
     }
 }
