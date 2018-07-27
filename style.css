@@ -29,7 +29,7 @@ html {
 
 /* MENU SECTION */
 
-#menu {
+.menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -186,7 +186,6 @@ a:hover {
     margin: auto;
     margin-top: 0;
     background-color: #F19117;
-    height: 820px;
 }
 #education {
     color: black;
@@ -218,7 +217,8 @@ li {
 
 #contactcontainer {
     width: 100%;
-    background-color: #919084 
+    background-color: #919084;
+    height: 100vh;
 } 
 
 #contact-info-container {
@@ -248,9 +248,7 @@ span {
 
 }
 #connect {
-    margin-bottom: 100px;
     width: 800px;
-    padding-top: 20px;
     font-size: 100px;
 }
 
@@ -260,28 +258,28 @@ span {
     margin: 0;
     padding: 0;
 }
-#medialinks {
+.medialinks {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 100px;
 }
 #github {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 #github:hover {
     opacity: .5;
 }
 #linkedin {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 #linkedin:hover {
     opacity: .5;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
     body {
         -webkit-overflow-scrolling: touch;
     }
@@ -290,10 +288,10 @@ span {
     }
     .name {
         font-weight: 300;
-        font-size: 70px;
+        font-size: 60px;
     }
     #name-location-container {
-        height: 1800px;
+        height: 100vh;
     }
     .location {
         font-size: 50px;
@@ -302,5 +300,6 @@ span {
     #projectimg {
         justify-content: center;
     }
-    
+   
 }
+
