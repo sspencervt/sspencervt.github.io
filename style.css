@@ -37,10 +37,13 @@ html {
     margin: 0;
     position: fixed;
     width: 100%;
+    transition: background-color 1s ease;
 }
 .menubuttons {
     margin: 10px;
     font-size: 18px;
+    transition: color 1s ease;
+    transition: background-color 1s ease;
 }
 .menubuttons:hover {
     background-color: rgb(230, 171, 120);
@@ -85,6 +88,10 @@ a:hover {
         margin-top: -30px;
         justify-content: center;
         display: flex;
+    }
+    .backToTop {
+        z-index: 1000;
+        display: fixed;
     }
 
 /* PROJECTS */
