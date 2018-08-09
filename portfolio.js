@@ -14,11 +14,9 @@ $(document).ready(function() {
     $("#fullpage").scroll(function() {
         scrollPosition = $(this).scrollTop();
         console.log(scrollPosition)
-        if (scrollPosition > 200) {
-            $(".menu").css('background', 'rgba(0, 0, 0, .5)')
-            $(".menubuttons").css('color', 'black')
-            $(".menubuttons").css('background', 'rgba(234, 190, 124, .8')
-            $(".menubuttons").css('border-radius', '10px;')
+        if (scrollPosition > 150) {
+            $(".menu").css('background', 'rgba(0, 0, 0, .8)')
+            $(".menubuttons").css('color', 'white')
         } else {
             $(".menu").css('background', 'rgba(0, 0, 0, .1')
             $(".menubuttons").css('color', 'white')
