@@ -297,12 +297,32 @@ span {
     opacity: .5;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     body {
         -webkit-overflow-scrolling: touch;
     }
     #projectcontainer {
         flex-direction: column;
+    }
+    #projectp {
+        font-size: 40px;
+    }
+    #careerp {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 50px;
+    }
+    h4 {
+        font-size: 50px;
+    }
+    #contactStuff {
+        font-size: 20px;
+        
+    }
+
+    #contactcontainer {
+        height: 80vh;
     }
     .name {
         font-weight: 300;
@@ -317,6 +337,14 @@ span {
     }
     #projectimg {
         justify-content: center;
+        width: 100%;
+        height: 420px;
+    }
+    .menubuttons {
+        margin-top: 50px;
+        height: 100px;
+        width: 140px;
+        font-size: 30px;
     }
    
 }
